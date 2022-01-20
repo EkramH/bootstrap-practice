@@ -28,7 +28,7 @@
                 <a class="nav-link" href="#">Downlaod</a>
               </li>
               <li class="nav-item mx-3">
-                <a class="nav-link btn rounded-pill btn-background text-white px-3" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="30" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <a class="nav-link btn rounded-pill background-gradient text-white px-3" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="30" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
                 </svg>Send Feedback</a>
               </li>
@@ -39,20 +39,23 @@
     </header>
 
     <main>
-      <section>
+      <!-- Banner section  -->
+      <section class="banner">
         <div class="container">
           <div class="row">
             <div class="col-md-6">
-              <h1 class="display-2 fw-bold text-blue">Showcase your app Beautifully</h1>
-              <p class="fs-5">Launch your mobile app landing page faster with this free, open source theme from Start Bootstrap!</p>
-              <div>
-                <a href="#">
-                  <img src="img/google-play.png" alt="">
-                </a>
-                <a href="#">
-                  <img src="img/app-store.png" alt="">
-                </a>
-              </div>
+            <div class="d-flex flex-column lign-items-center justify-content-center h-100">
+                <h1 class="display-2 fw-bold text-blue">Showcase your app Beautifully</h1>
+                <p class="fs-5">Launch your mobile app landing page faster with this free, open source theme from Start Bootstrap!</p>
+                <div>
+                  <a href="#">
+                    <img src="img/google-play.png" alt="">
+                  </a>
+                  <a href="#">
+                    <img src="img/app-store.png" alt="">
+                  </a>
+                </div>
+            </div>
             </div>
             <div class="col-md-6">
               <div class="d-flex align-items-center justify-content-center py-3">
@@ -60,6 +63,13 @@
               </div>
             </div>
           </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="background-gradient d-flex flex-column justify-content-center align-items-center py-5">
+          <h1 class="text-center w-50 text-white mb-3">"An intuitive solution to a common problem that we all face, wrapped up in a single app!"</h1>
+          <img height="50" src="img/tnw-logo.svg" alt="">
         </div>
       </section>
     </main>
