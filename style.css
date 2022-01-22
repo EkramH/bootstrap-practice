@@ -19,3 +19,12 @@ body {
 .navigation {
   height: 80px;
 }
+
+.stop-waiting {
+  background-image: url(img/background.png);
+  height: 70vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: overlay;
+}
